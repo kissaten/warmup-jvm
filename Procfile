@@ -1,1 +1,1 @@
-web:    java -cp target/classes:target/dependency/* Main
+web: sh bin/warmup & java -cp target/classes:target/dependency/* Main
